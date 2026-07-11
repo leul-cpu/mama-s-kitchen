@@ -5,6 +5,19 @@
 
 ---
 
+## 📸 Screenshots
+
+### Home Screen
+![Home Screen](docs/screenshots/home.png)
+
+### About Section
+![About Section](docs/screenshots/about.png)
+
+### Gallery — The Night Reel
+![Gallery](docs/screenshots/gallery.png)
+
+---
+
 ## 🎨 Visual Identity & Theme
 
 Inspired by the glowing warmth of stage lights and brass instruments in Addis Ababa's nightlife districts:

@@ -161,6 +161,22 @@ if (fs.existsSync(logoSource)) {
   fs.copyFileSync(logoSource, logoDest);
 }
 
+// Copy screenshots for README
+const docsDir = path.resolve(import.meta.dirname, "docs", "screenshots");
+if (!fs.existsSync(docsDir)) {
+  fs.mkdirSync(docsDir, { recursive: true });
+}
+const screenshots = [
+  { src: "C:\\Users\\leula\\.gemini\\antigravity-ide\\brain\\fca3b2cd-73d3-4aa7-838c-9da353ed494b\\media__1783779662873.png", dest: "home.png" },
+  { src: "C:\\Users\\leula\\.gemini\\antigravity-ide\\brain\\fca3b2cd-73d3-4aa7-838c-9da353ed494b\\media__1783779636291.png", dest: "about.png" },
+  { src: "C:\\Users\\leula\\.gemini\\antigravity-ide\\brain\\fca3b2cd-73d3-4aa7-838c-9da353ed494b\\media__1783779632148.png", dest: "gallery.png" }
+];
+for (const s of screenshots) {
+  if (fs.existsSync(s.src)) {
+    fs.copyFileSync(s.src, path.join(docsDir, s.dest));
+  }
+}
+
 function vitePluginStorageProxy(): Plugin {
   return {
     name: "manus-storage-proxy",
