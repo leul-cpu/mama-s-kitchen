@@ -1,0 +1,5 @@
+Hero Banner: /manus-storage/hero-banner_c23ef116.jpg
+Logo Icon: /manus-storage/logo-icon_197abe30.png
+Food Hero: /manus-storage/food-hero_f659107c.jpg
+Lounge Night: /manus-storage/lounge-night_266234b3.jpg
+Menu Background: /manus-storage/menu-background_7f2f3d7b.jpg

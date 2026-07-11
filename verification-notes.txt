@@ -1,0 +1,44 @@
+Screenshot verification results (Jul 11, 2026):
+
+Home (/):
+- Hero with dark lounge image, gold "alive after dark" accent
+- Five venue cards in grid with equal weight, no hierarchy
+- Tonight's Lineup preview with 8 items
+- Atmosphere section with lounge image
+- Footer with logo + Amharic wordmark
+
+Branches (/branches):
+- "The lineup" hero with concert bill language
+- Five venues numbered 01-05 with gold dividers between acts
+- Each branch shows verified fields only (address, phone if available, hours if available)
+- Google Maps embeds for each branch
+- Royal Lounge event placeholder with brand voice
+- "Get directions" links
+
+Menu (/menu):
+- "Tonight's Lineup" concert program tabs
+- Category notes under tabs ("The heart of the kitchen", etc.)
+- Track-list styling with mono numbers, gold underlines
+- Price ranges shown as general ranges
+- Royal Lounge exclusive note
+
+About (/about):
+- Dramatic hero "A kitchen that feels like home."
+- Numbered sections 01-03 with gold dividers
+- Two-column layout with food image + lounge image
+- Five venues card with numbered lineup
+- Strong brand voice throughout
+
+Gallery (/gallery):
+- "Frames from the floor" title
+- "The kitchen, the stage, the street" subtitle
+- Four images in 2x2 grid
+- "New frames on their way" placeholder (brand voice)
+
+Contact (/contact):
+- "Every branch, within reach." hero
+- Five branches in lineup format with Call/Directions buttons
+- Gold dividers between entries
+- Social placeholder with brand voice
+
+All pages verified: No TypeScript errors, all routes working, dark theme consistent, gold accents throughout.
